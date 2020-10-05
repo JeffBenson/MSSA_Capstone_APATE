@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<h1>Select from the Following:</h1>
+
+<div class="row">
+    <div class="column">
+        <button class="geo" type="button" style="border:none; background: none" onclick="location.href='@Url.Action("Index", "Geo")'"><img src="~/Icons/world-image-on-computer-screen.png" height="300" width="300" /></button>
+        <button type="button" style="border:none; background: none" onclick="location.href='@Url.Action("Index", "Devices1")'"><img src="~/Icons/screen-5.png" height="300" width="300" /></button>
+        <button type="button" style="border:none; background: none" onclick="location.href='@Url.Action("Index", "Devices1")'"><img src="~/Icons/printer.png" height="300" width="300" /></button>
+    </div>
+</div>

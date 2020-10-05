@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Navbar Photos\**" />
+    <Content Remove="wwwroot\Navbar Photos\**" />
+    <EmbeddedResource Remove="wwwroot\Navbar Photos\**" />
+    <None Remove="wwwroot\Navbar Photos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.css" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.css.map" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.min.css.map" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css.map" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.css" />
+    <Content Remove="C:\Users\jeffb\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Angular.UI.Bootstrap" Version="2.5.0" />
+    <PackageReference Include="bootstrap" Version="4.5.2" />
+    <PackageReference Include="IPGeolocation.Net" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>
