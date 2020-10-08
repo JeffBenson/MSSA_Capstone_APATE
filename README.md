@@ -1,6 +1,7 @@
 # MSSA_Capstone_APATE
 SOC Analyst Device Tracker
-#Final Project for Microsoft Systems & and Software Academy
+
+**Final Project for Microsoft Systems & and Software Academy
  
 # ERGOSec
 
