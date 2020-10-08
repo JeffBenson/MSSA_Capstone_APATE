@@ -106,7 +106,7 @@ ISBN-10: 1593277598
 
 
 
-
+## Threats, Countermeasures & Defensive Tactics
 ###### SQL Injection
 
 - Parameterized SQL Queries
@@ -140,7 +140,7 @@ ISBN-10: 1593277598
 - Sanitize Input by Casting
 - Secure Static Files
 
-## Threats, Countermeasures & Defensive Tactics
+
 
 
 1. Conceptual, Logical, and Physical Entity Relationship Diagrams
