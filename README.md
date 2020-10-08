@@ -1,5 +1,6 @@
 # MSSA_Capstone_APATE
- Final Project for Microsoft Systems & and Software Academy
+SOC Analyst Device Tracker
+Final Project for Microsoft Systems & and Software Academy
  
 # ERGOSec
 
@@ -90,7 +91,6 @@ ISBN-10: 1593277598
 
 ## SIMILAR PRODUCTS
 
-
 ###### Currently there are other similar projects but with a lack opensource code,
 
 ###### risks and vulnerabilities inherent in other’s code are introduced into production
@@ -142,7 +142,7 @@ ISBN-10: 1593277598
 
 
 
-
+## PRODUCTION ORDER
 1. Conceptual, Logical, and Physical Entity Relationship Diagrams
 2. Flowchart for apate.exe and T-SQL backend
 3. T-SQL DB and tables
@@ -156,7 +156,7 @@ ISBN-10: 1593277598
 11. Final Marketing Established
 12. Project Complete
 
-## PRODUCTION ORDER
+
 
 ```
 Adversaries have many tricks at their disposal.
